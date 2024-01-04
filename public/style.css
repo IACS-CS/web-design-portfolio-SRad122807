@@ -9,6 +9,8 @@ html{  background-color: #5c5c5c;
 h1 { 
   border-right: 20px solid #b22ab2;
   border-left: 20px solid #b22ab2;
+  border-radius: 40px;
+  text-align: center;
 }
 body {
   /* Change to something you like, but please do customize the font! */
