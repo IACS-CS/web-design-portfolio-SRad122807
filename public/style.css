@@ -1,4 +1,7 @@
-
+h1 { 
+  border-right: 20px solid #b22ab2;
+  border-left: 20px solid #b22ab2
+}
 body {
   /* Change to something you like, but please do customize the font! */
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
