@@ -27,3 +27,11 @@ h1:first-child {
 #about-me {
   font-size: 90%
 }
+
+.sample-work .Work span {
+  display: none; 
+}
+
+.sample-work .Work span.active {
+  display: block;
+}
