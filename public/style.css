@@ -1,16 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Lumanosimo&display=swap');
 
-html{  background-color: #5c5c5c;
+html{ 
+  background-color: #050404;
   font-family: 'Lumanosimo', cursive;
   font-size: 80%;
   color-scheme: dark;
   margin: auto;
-  width: 80%;
+  width: auto;
   padding: 5px;
 }
 h1 { 
-  border-right: 20px solid #b22ab2;
-  border-left: 20px solid #b22ab2;
-  border-radius: 40px;
   text-align: center;
+  border-left: 4px solid #edef96;
+  border-right: 4px solid #edef96;
+}
+
+.hero {
+  justify-content: center;
+  display: block;
+  background-color: #050404;
+  border-bottom: 4px solid #edef96;
 }
