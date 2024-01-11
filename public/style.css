@@ -7,9 +7,11 @@ html{
   color-scheme: dark;
   margin: auto;
   width: auto;
-  padding: 5px;
+  padding: 20px;
+  display: grid;
+
 }
-h1 { 
+h1:first-child { 
   text-align: center;
   border-left: 4px solid #edef96;
   border-right: 4px solid #edef96;
@@ -20,4 +22,9 @@ h1 {
   display: block;
   background-color: #050404;
   border-bottom: 4px solid #edef96;
+}
+
+#about-me {
+  text-align: right;
+  
 }
