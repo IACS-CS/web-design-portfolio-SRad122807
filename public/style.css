@@ -1,5 +1,37 @@
-body {
-  /* Change to something you like, but please do customize the font! */
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  line-height: 1.4;
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&display=swap');
+
+html{ 
+  background-color: #050404;
+  font-family: 'Lumanosimo', cursive;
+  font-size: 80%;
+  color-scheme: dark;
+  margin: auto;
+  width: auto;
+  padding: 20px;
+  display: grid;
+
+}
+h1:first-child { 
+  text-align: center;
+  border-left: 4px solid #edef96;
+  border-right: 4px solid #edef96;
+}
+
+.hero {
+  justify-content: center;
+  display: block;
+  background-color: #050404;
+  border-bottom: 4px solid #edef96;
+}
+
+#about-me {
+  font-size: 90%
+}
+
+.sample-work .Work span {
+  display: none; 
+}
+
+.sample-work .Work span.active {
+  display: block;
 }
