@@ -11,3 +11,5 @@ tabs.forEach((tab) => {
 });
 
 activeTab.classList.add("active");
+
+/* maybe change like half of this stuff when you find out what's wrong */
